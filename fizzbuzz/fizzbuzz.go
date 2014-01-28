@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	FIZZ = "FIZZ"
-	BUZZ = "BUZZ"
+	FIZZ = "Fizz"
+	BUZZ = "Buzz"
 	FIZZ_NUMBER = 3
 	BUZZ_NUMBER = 5
 )
