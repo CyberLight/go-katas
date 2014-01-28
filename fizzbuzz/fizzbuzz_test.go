@@ -24,3 +24,10 @@ func TestShouldGetBUZZ(t *testing.T){
 		t.Errorf("For num %v gets %v instead of %v", 5, result, BUZZ)
 	}
 }
+
+func TestShouldGetFIZZBUZZ(t *testing.T){
+	fb := NewFizzBuzz()
+	if result, _ := fb.Process(15); result != "FizzBuzz" {
+		t.Errorf("For num %v gets %v instead of %v", 15, result, "FizzBuzz")
+	}
+}
