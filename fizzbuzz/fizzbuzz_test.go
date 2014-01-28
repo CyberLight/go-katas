@@ -20,7 +20,7 @@ func TestShouldGetNumber(t *testing.T){
 
 func TestShouldGetBUZZ(t *testing.T){
 	fb := NewFizzBuzz()
-	if result, _ := fb.Process(5); result != "BUZZ" {
-		t.Errorf("For num %v gets %v instead of %v", 5, result, "BUZZ")
+	if result, _ := fb.Process(5); result != BUZZ {
+		t.Errorf("For num %v gets %v instead of %v", 5, result, BUZZ)
 	}
 }
